@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    
+}
+
+#div__picture > picture > div{
+    background-image: url(/img/semilla.jpg);
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+    height: 500px;
+    width:1320px !important;
+}
+
+#div__metodologia{
+    background-image: url(/img/fondo.jpg);
+    background-position: center;
+    height: 376px;
+}
+
+#div__metodologia > div:first-child > img{
+    height: 376px;
+}
+
+#div__blog{
+    background-image: url(/img/fondo2.jpg);
+    background-position: center;
+    height: 376px;
+}
+
+#div__blog img{
+    height: 200px;
+}
+
+#div__siguenos img{
+    width: 50px;
+}
