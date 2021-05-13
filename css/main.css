@@ -1,35 +1,103 @@
 * {
     margin: 0;
-    
+    font-family: 'Times New Roman', Times, serif;
 }
 
-#div__picture > picture > div{
+nav > a > img {
+    height: 120px;
+}
+
+nav > ul > li > a {
+    color: rgb(83, 88, 95) !important;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+#div__picture > div{
     background-image: url(/img/semilla.jpg);
-    background-size: cover;
+    background-size:cover;
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position:center;
+    width:99%;
     height: 500px;
-    width:1320px !important;
+    padding: 0;
 }
 
 #div__metodologia{
     background-image: url(/img/fondo.jpg);
     background-position: center;
-    height: 376px;
+    height: 490.533px;
+    width: 100%;
 }
 
-#div__metodologia > div:first-child > img{
-    height: 376px;
+#div__metodologia > div:first-child > img {
+    width: 100%;
+}
+
+#div__servicios h3{
+    color:rgb(83, 88, 95);
+    font-size: 22px;
+    padding: 20px 0;
+}
+
+#div__servicios img{
+    width:150px;
+}
+
+#div__servicios div[class="col-3"]{
+    padding:10px 35px;
+}
+
+#div__proyectos img{
+    height:350px;
+    width: 80%;
+    margin: 20px 0 20px 140px;
+    text-align: end;
+}
+
+#div__equipo img:first-of-type{
+    clip-path: circle(50% at 50% 50%);
+    width: 300px;
+}
+
+#div__equipo h5{
+    color:black;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+#div__equipo img:not(img:first-of-type){
+    width: 35px;
+    margin:0 5px;
 }
 
 #div__blog{
     background-image: url(/img/fondo2.jpg);
     background-position: center;
-    height: 376px;
+    height: 500px;
 }
 
 #div__blog img{
-    height: 200px;
+    height: 210px;
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+#div__blog h4,h5 {
+    color: rgb(83, 88, 95);
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 18px;
+}
+
+#div__siguenos {
+    height: 350px;
+}
+
+#div__siguenos > div > div > div {
+    margin-top: 50px;
+    height: 250px;
 }
 
 #div__siguenos img{
